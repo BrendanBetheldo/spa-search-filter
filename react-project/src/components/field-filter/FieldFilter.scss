@@ -1,0 +1,49 @@
+.field-filter-component {
+    max-width: 80%;
+    height: 100vh;
+    color: #595f65;
+}
+
+.filter-container {
+    background-color: #f9fafa;
+    padding: 30px 25px 50px;
+    .custom-select {
+        background: url('/static/media/chevron-down.c71d2515.svg') no-repeat right 0.75rem center/30px 22px;
+    }
+    .btn.btn-primary.submit {
+        outline: none;
+        background-color: #20bba6;
+        margin-top: 40px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 1;
+    }
+}
+
+.results-container {
+    padding-top:30px;
+    background-color: #fff;
+    
+    .result-length{
+    font-size:25px;
+    line-height:1;
+    }
+    .result-card {
+        padding: 40px 30px;
+        border-bottom:solid #eaedf1 1px;
+      
+        .patch {
+            max-width: 95px;
+            height: auto;
+            img {
+                width: 100%;
+            }
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .flight-number {
+            font-size: 30px;
+        }
+    }
+}

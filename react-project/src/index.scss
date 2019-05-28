@@ -1,0 +1,26 @@
+.App {
+    font-family: 'Lato', 'Roboto', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.App-title {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.warning {
+    color: #990000;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
